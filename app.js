@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // render the user list
      generateUserList(userData, stocksData);
    });
-   Register the event listener on the save button
+   //Register the event listener on the save button
   saveButton.addEventListener('click', (event) => {
     // we don't want the form to submit (since we will lose form state)
     e.preventDefault();
